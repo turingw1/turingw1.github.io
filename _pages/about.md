@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Zhengwei Gong
-======
-
 Email: [gzwsjtu98@sjtu.edu.cn](mailto:gzwsjtu98@sjtu.edu.cn)
 
 This is the personal webpage of Zhengwei Gong and is maintained for academic identification and OpenReview-related verification.
