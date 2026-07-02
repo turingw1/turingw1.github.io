@@ -2,15 +2,11 @@
   "basics": {
     "name": "Zhengwei Gong",
     "email": "gzwsjtu98@sjtu.edu.cn",
-    "phone": "+86-13926705262",
-    "website": "https://academicpages.github.io",
-    "summary": "Junior in Electrical & Computer Engineering at Shanghai Jiao Tong University.",
+    "website": "https://turingw1.github.io",
+    "summary": "Undergraduate researcher in Electrical & Computer Engineering at Shanghai Jiao Tong University, working on physics-enhanced video generation and multimodal world models.",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Shanghai",
-      "countryCode": "CN",
-      "region": ""
+      "countryCode": "CN"
     },
     "profiles": [
       {
@@ -19,27 +15,22 @@
         "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "turingw1",
+        "url": "https://github.com/turingw1"
       }
     ]
   },
   "work": [
     {
-      "position": "Teaching Assistant - Intro to Circuits (ECE2150J)",
+      "position": "Teaching Assistant - Introduction to Circuits",
       "company": "Shanghai Jiao Tong University",
-      "startDate": "SU2025",
+      "startDate": "2025",
       "endDate": "",
       "summary": "Shanghai, China",
       "highlights": [
-        "Provided technical guidance on circuit analysis and simulations, assisting students in debugging and experimental design.",
-        "Demonstrated strong responsibility, communication skills, and long-term commitment in an academic setting."
+        "Provided technical guidance on circuit analysis and simulation, supporting students with debugging and experimental design.",
+        "Demonstrated responsibility, communication, and sustained commitment in an academic setting."
       ]
     }
   ],
@@ -47,14 +38,13 @@
     {
       "institution": "Shanghai Jiao Tong University (SJTU)",
       "area": "Electrical & Computer Engineering",
-      "studyType": "Junior",
+      "studyType": "B.Eng.",
       "startDate": "2023-09",
       "endDate": "Present",
-      "gpa": "3.67/4.0",
       "courses": [
-        "Algorithms (ECE4770J)",
-        "Algorithms for Big Data (Res1102)",
-        "Numerical Analysis (MATH4710J)",
+        "Algorithms",
+        "Algorithms for Big Data",
+        "Numerical Analysis",
         "Computer Architecture",
         "Probability and Statistics",
         "Linear Algebra"
@@ -77,7 +67,6 @@
       "name": "ML Training & Optimization",
       "keywords": [
         "End-to-end PyTorch pipelines (Dataset/DataLoader, train/val loops, checkpointing, reproducibility)",
-        "Regression/classification",
         "Adam/SGD, LR scheduling, regularization, loss engineering (MSE/Huber, multi-task losses)",
         "Hyperparameter tuning"
       ]
@@ -92,111 +81,54 @@
     {
       "name": "Environment & Writing",
       "keywords": [
-        "Ubuntu-based AI development (conda, CUDA-ready PyTorch, Git, Docker, SSH)",
+        "Linux-based AI development (conda, CUDA-ready PyTorch, Git, Docker, SSH)",
         "Formal academic writing and collaborative workflows using LaTeX and Git"
       ]
     }
   ],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "publications": [
+  "interests": [
+    { "name": "Physics-enhanced video generation" },
+    { "name": "Multimodal world models" },
+    { "name": "Diffusion / flow distillation and evaluation" }
+  ],
+  "awards": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "title": "Gold Medal, University Physics Competition (Top 5%)",
+      "date": "2024",
+      "awarder": "SJTU",
+      "summary": "Led 3D aerodynamic modeling and analysis; proposed and implemented a 3D simulation workflow in Ansys."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "title": "Feng Tongsheng Scholarship (merit-based, university-level)",
+      "date": "2025",
+      "awarder": "SJTU",
+      "summary": ""
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
       "name": "Neural Network-based Numerical Integration",
       "category": "project",
       "date": "2025",
       "url": "",
-      "description": "Course project (MATH471: Numerical Analysis). Built neural-network-based function approximators for definite integrals with PyTorch, including data generation, training, and evaluation; analyzed stability and generalization."
+      "description": "Course project (Numerical Analysis). Built neural-network function approximators for definite integrals with PyTorch, including data generation, training, and evaluation; analyzed stability and generalization."
     },
     {
       "name": "Machine Learning and Large-Scale Algorithm Optimization",
       "category": "project",
       "date": "2025",
       "url": "",
-      "description": "Course project (Res1102: Algorithms for Big Data). Implemented perceptron, MLP, MNIST classifier, language-ID RNNs, and a masked-attention transformer for character-level GPT."
+      "description": "Course project (Algorithms for Big Data). Implemented perceptron, MLP, MNIST classifier, language-ID RNNs, and a masked-attention transformer for a character-level GPT."
     },
     {
       "name": "Algorithms & AI Foundations Self-Study Module",
       "category": "project",
       "date": "2025",
       "url": "",
-      "description": "Self-directed & course project (ECE477: Intro to Algorithm). Studied advanced algorithms and co-authored a structured algorithm wiki with LaTeX and Git."
+      "description": "Self-directed & course project (Intro to Algorithms). Studied advanced algorithms and co-authored a structured algorithm wiki with LaTeX and Git."
     }
   ]
 }

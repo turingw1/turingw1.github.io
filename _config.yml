@@ -25,8 +25,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Zhengwei Gong"
-  pronouns         : # example: "she/her"  
-  bio              : "Junior in Electrical & Computer Engineering at Shanghai Jiao Tong University."
+  pronouns         : # example: "she/her"
+  bio              : "Undergraduate researcher in ECE at SJTU. Physics-enhanced video generation & multimodal world models."
   location         : "Shanghai, China"
   employer         : "Shanghai Jiao Tong University"
   uri              : # URL
@@ -38,10 +38,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # URL - add your ORCID once registered
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -166,6 +166,7 @@ include:
   - _pages
   - files
 exclude:
+  - CV_ZhengweiGong.pdf   # contains phone/GPA/rank — kept out of the public site (also remove from repo + history; see notes)
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

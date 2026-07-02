@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 460" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="A Tailscale tailnet connecting a MacBook, a GPU workstation, a phone and a NAS over an encrypted mesh">
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#1f2328" flood-opacity="0.10"/>
+    </filter>
+    <marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f6f7c"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="820" height="460" rx="16" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="#1f2328">One flat, private network — wherever you are</text>
+  <text x="40" y="72" font-size="14" fill="#5b6570">Tailscale gives every device a stable 100.x address and a name. Direct, encrypted, and it punches through NAT for you.</text>
+
+  <!-- central mesh band -->
+  <ellipse cx="410" cy="255" rx="250" ry="86" fill="#eef4f4" stroke="#cfe0e0"/>
+  <text x="410" y="250" font-size="16" font-weight="700" fill="#124b54" text-anchor="middle">tailnet · WireGuard mesh</text>
+  <text x="410" y="274" font-size="12.5" fill="#5b6570" text-anchor="middle">MagicDNS · end-to-end encrypted · no public ports</text>
+
+  <!-- nodes -->
+  <!-- MacBook (café) -->
+  <g filter="url(#sh)">
+    <rect x="60" y="120" width="180" height="70" rx="12" fill="#ffffff" stroke="#e2e8e8"/>
+  </g>
+  <text x="80" y="150" font-size="15" font-weight="700" fill="#1f2328">💻  MacBook</text>
+  <text x="80" y="172" font-size="12.5" fill="#5b6570">at a café · <tspan font-family="monospace">mac</tspan></text>
+
+  <!-- GPU workstation (lab) -->
+  <g filter="url(#sh)">
+    <rect x="580" y="120" width="180" height="70" rx="12" fill="#ffffff" stroke="#e2e8e8"/>
+  </g>
+  <text x="600" y="150" font-size="15" font-weight="700" fill="#1f2328">🖥️  GPU box</text>
+  <text x="600" y="172" font-size="12.5" fill="#5b6570">in the lab · <tspan font-family="monospace">gpu-box</tspan></text>
+
+  <!-- Phone -->
+  <g filter="url(#sh)">
+    <rect x="120" y="360" width="170" height="64" rx="12" fill="#ffffff" stroke="#e2e8e8"/>
+  </g>
+  <text x="140" y="388" font-size="15" font-weight="700" fill="#1f2328">📱  iPhone</text>
+  <text x="140" y="408" font-size="12.5" fill="#5b6570">check jobs on the go</text>
+
+  <!-- NAS / home server -->
+  <g filter="url(#sh)">
+    <rect x="530" y="360" width="180" height="64" rx="12" fill="#ffffff" stroke="#e2e8e8"/>
+  </g>
+  <text x="550" y="388" font-size="15" font-weight="700" fill="#1f2328">🗄️  Home NAS</text>
+  <text x="550" y="408" font-size="12.5" fill="#5b6570">backups · <tspan font-family="monospace">nas</tspan></text>
+
+  <!-- links to mesh -->
+  <path d="M175 190 C 210 220, 240 225, 270 235" stroke="#1f6f7c" stroke-width="2" fill="none"/>
+  <path d="M665 190 C 630 220, 600 225, 555 235" stroke="#1f6f7c" stroke-width="2" fill="none"/>
+  <path d="M205 360 C 240 330, 270 315, 300 300" stroke="#1f6f7c" stroke-width="2" fill="none"/>
+  <path d="M615 360 C 585 330, 560 315, 530 300" stroke="#1f6f7c" stroke-width="2" fill="none"/>
+
+  <!-- highlighted direct tunnel MacBook -> GPU -->
+  <path d="M240 150 C 410 92, 410 92, 580 150" stroke="#1f6f7c" stroke-width="2.5" fill="none" stroke-dasharray="7 5" marker-end="url(#a2)"/>
+  <rect x="330" y="96" width="164" height="26" rx="13" fill="#124b54"/>
+  <text x="412" y="114" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">ssh gpu-box · VS Code Remote</text>
+</svg>

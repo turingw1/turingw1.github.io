@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="A pipeline from paper sources through Claude to structured notes in Obsidian and idea synthesis">
+  <defs>
+    <filter id="sp" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#1f2328" flood-opacity="0.09"/>
+    </filter>
+    <marker id="a3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f6f7c"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="840" height="400" rx="16" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="#1f2328">Reading loop: Claude drafts, Obsidian remembers, you decide</text>
+  <text x="40" y="72" font-size="14" fill="#5b6570">Claude compresses the paper; Obsidian keeps the structure and links; the judgment stays yours.</text>
+
+  <!-- stage 1 -->
+  <g filter="url(#sp)"><rect x="34" y="110" width="150" height="150" rx="14" fill="#fafafa" stroke="#e2e8e8"/></g>
+  <text x="52" y="138" font-size="14" font-weight="700" fill="#124b54">① Sources</text>
+  <text x="52" y="162" font-size="12.5" fill="#5b6570">arXiv PDF</text>
+  <text x="52" y="182" font-size="12.5" fill="#5b6570">conference paper</text>
+  <text x="52" y="202" font-size="12.5" fill="#5b6570">code &amp; appendix</text>
+  <text x="52" y="230" font-size="11.5" fill="#8b95a1">drop into context</text>
+
+  <!-- stage 2 -->
+  <g filter="url(#sp)"><rect x="214" y="110" width="170" height="150" rx="14" fill="#eef4f4" stroke="#cfe0e0"/></g>
+  <text x="232" y="138" font-size="14" font-weight="700" fill="#124b54">②  Claude</text>
+  <text x="232" y="162" font-size="12.5" fill="#1f2328">skim → summarize</text>
+  <text x="232" y="182" font-size="12.5" fill="#1f2328">extract claims</text>
+  <text x="232" y="202" font-size="12.5" fill="#1f2328">cross-compare papers</text>
+  <text x="232" y="222" font-size="12.5" fill="#1f2328">interrogate: “why?”</text>
+  <text x="232" y="246" font-size="11.5" fill="#8b95a1">drafts, never decides</text>
+
+  <!-- stage 3 -->
+  <g filter="url(#sp)"><rect x="414" y="110" width="170" height="150" rx="14" fill="#fafafa" stroke="#e2e8e8"/></g>
+  <text x="432" y="138" font-size="14" font-weight="700" fill="#124b54">③  Literature note</text>
+  <text x="432" y="162" font-size="12.5" fill="#5b6570">TL;DR</text>
+  <text x="432" y="182" font-size="12.5" fill="#5b6570">problem · method</text>
+  <text x="432" y="202" font-size="12.5" fill="#5b6570">results</text>
+  <text x="432" y="222" font-size="12.5" fill="#1f2328" font-weight="600">my take ✎</text>
+  <text x="432" y="246" font-size="11.5" fill="#8b95a1">one note per paper</text>
+
+  <!-- stage 4 -->
+  <g filter="url(#sp)"><rect x="614" y="110" width="192" height="150" rx="14" fill="#eef4f4" stroke="#cfe0e0"/></g>
+  <text x="632" y="138" font-size="14" font-weight="700" fill="#124b54">④  Obsidian vault</text>
+  <text x="632" y="162" font-size="12.5" fill="#1f2328">[[wikilinks]] · tags</text>
+  <text x="632" y="182" font-size="12.5" fill="#1f2328">map-of-content</text>
+  <text x="632" y="202" font-size="12.5" fill="#1f2328">graph view</text>
+  <text x="632" y="222" font-size="12.5" fill="#1f2328" font-weight="600">gaps → new ideas 💡</text>
+  <text x="632" y="246" font-size="11.5" fill="#8b95a1">the memory that lasts</text>
+
+  <!-- arrows -->
+  <path d="M186 185 L210 185" stroke="#1f6f7c" stroke-width="2.2" marker-end="url(#a3)"/>
+  <path d="M386 185 L410 185" stroke="#1f6f7c" stroke-width="2.2" marker-end="url(#a3)"/>
+  <path d="M586 185 L610 185" stroke="#1f6f7c" stroke-width="2.2" marker-end="url(#a3)"/>
+
+  <!-- feedback loop -->
+  <path d="M700 260 C 700 330, 120 330, 110 262" stroke="#1f6f7c" stroke-width="2" stroke-dasharray="6 5" fill="none" marker-end="url(#a3)"/>
+  <rect x="330" y="312" width="180" height="26" rx="13" fill="#124b54"/>
+  <text x="420" y="330" font-size="12.5" font-weight="600" fill="#ffffff" text-anchor="middle">follow citations → read more</text>
+</svg>
