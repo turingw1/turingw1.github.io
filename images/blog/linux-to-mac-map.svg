@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Mapping common Linux habits to their macOS equivalents">
+  <defs>
+    <filter id="s1" x="-4%" y="-8%" width="108%" height="116%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#1f2328" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="820" height="430" rx="16" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="700" fill="#1f2328">From Linux to macOS — same reflexes, new tools</text>
+  <text x="40" y="72" font-size="14" fill="#5b6570">Your terminal muscle memory mostly survives. Only the plumbing underneath changes.</text>
+
+  <!-- column headers -->
+  <rect x="40" y="96" width="330" height="40" rx="10" fill="#eef4f4"/>
+  <text x="60" y="122" font-size="15" font-weight="700" fill="#124b54">🐧  On Linux</text>
+  <rect x="450" y="96" width="330" height="40" rx="10" fill="#eef4f4"/>
+  <text x="470" y="122" font-size="15" font-weight="700" fill="#124b54">  On macOS</text>
+
+  <!-- rows -->
+  <g font-size="14.5" fill="#1f2328">
+    <!-- row template: left box, arrow, right box -->
+    <g transform="translate(0,150)">
+      <rect x="40" y="0" width="330" height="42" rx="10" fill="#fafafa" stroke="#e2e8e8" filter="url(#s1)"/>
+      <text x="60" y="26" fill="#5b6570">apt / dnf install …</text>
+      <path d="M382 21 L438 21" stroke="#1f6f7c" stroke-width="2" marker-end="url(#arrow)"/>
+      <rect x="450" y="0" width="330" height="42" rx="10" fill="#fafafa" stroke="#e2e8e8" filter="url(#s1)"/>
+      <text x="470" y="26" font-weight="600">brew install …  (Homebrew)</text>
+    </g>
+    <g transform="translate(0,204)">
+      <rect x="40" y="0" width="330" height="42" rx="10" fill="#fafafa" stroke="#e2e8e8" filter="url(#s1)"/>
+      <text x="60" y="26" fill="#5b6570">systemctl / systemd unit</text>
+      <path d="M382 21 L438 21" stroke="#1f6f7c" stroke-width="2" marker-end="url(#arrow)"/>
+      <rect x="450" y="0" width="330" height="42" rx="10" fill="#fafafa" stroke="#e2e8e8" filter="url(#s1)"/>
+      <text x="470" y="26" font-weight="600">launchd  /  brew services</text>
+    </g>
+    <g transform="translate(0,258)">
+      <rect x="40" y="0" width="330" height="42" rx="10" fill="#fafafa" stroke="#e2e8e8" filter="url(#s1)"/>
+      <text x="60" y="26" fill="#5b6570">GNOME Terminal + bash</text>
+      <path d="M382 21 L438 21" stroke="#1f6f7c" stroke-width="2" marker-end="url(#arrow)"/>
+      <rect x="450" y="0" width="330" height="42" rx="10" fill="#fafafa" stroke="#e2e8e8" filter="url(#s1)"/>
+      <text x="470" y="26" font-weight="600">iTerm2 + zsh  (or Ghostty)</text>
+    </g>
+    <g transform="translate(0,312)">
+      <rect x="40" y="0" width="330" height="42" rx="10" fill="#fafafa" stroke="#e2e8e8" filter="url(#s1)"/>
+      <text x="60" y="26" fill="#5b6570">i3 / tiling window manager</text>
+      <path d="M382 21 L438 21" stroke="#1f6f7c" stroke-width="2" marker-end="url(#arrow)"/>
+      <rect x="450" y="0" width="330" height="42" rx="10" fill="#fafafa" stroke="#e2e8e8" filter="url(#s1)"/>
+      <text x="470" y="26" font-weight="600">Rectangle + Spaces / Mission Control</text>
+    </g>
+    <g transform="translate(0,366)">
+      <rect x="40" y="0" width="330" height="42" rx="10" fill="#eef4f4" stroke="#cfe0e0" filter="url(#s1)"/>
+      <text x="60" y="26" fill="#124b54">ssh / scp / rsync</text>
+      <path d="M382 21 L438 21" stroke="#1f6f7c" stroke-width="2" marker-end="url(#arrow)"/>
+      <rect x="450" y="0" width="330" height="42" rx="10" fill="#eef4f4" stroke="#cfe0e0" filter="url(#s1)"/>
+      <text x="470" y="26" font-weight="700" fill="#124b54">ssh / scp / rsync  — unchanged ✓</text>
+    </g>
+  </g>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f6f7c"/>
+    </marker>
+  </defs>
+</svg>

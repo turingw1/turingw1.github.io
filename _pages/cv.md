@@ -11,61 +11,47 @@ redirect_from:
 
 Education
 ======
-* Shanghai Jiao Tong University (SJTU), Shanghai, China  
-  Junior in Electrical & Computer Engineering, Sept. 2023 - Present  
-  GPA: 3.67/4.0; Rank: 52/262  
-  Relevant Coursework: Algorithms (ECE4770J), Algorithms for Big Data (Res1102), Numerical Analysis (MATH4710J), Computer Architecture, Probability and Statistics, Linear Algebra  
-  Awards: Gold Medal University Physics Competition (Top 5%); Feng Tongsheng Scholarship (University-level)
+* **Shanghai Jiao Tong University (SJTU)**, Shanghai, China
+  * B.Eng. in Electrical &amp; Computer Engineering, Sept. 2023 – Present
+  * Relevant coursework: Algorithms, Algorithms for Big Data, Numerical Analysis, Computer Architecture, Probability &amp; Statistics, Linear Algebra
+  * Awards: Gold Medal, University Physics Competition (Top 5%); Feng Tongsheng Scholarship (university-level)
 
-Research and Technical Projects
+Research Interests
 ======
-* Neural Network-based Numerical Integration (Course Project, MATH471: Numerical Analysis), FA2025  
-  * Neural Approximation & Data Pipeline: Built neural-network-based function approximators for definite integrals using PyTorch, including synthetic data generation, model definition, and batched training with DataLoader.
-  * Training, Evaluation & Stability Analysis: Implemented end-to-end training and evaluation workflows (forward/backward propagation, loss monitoring, MAE/MSE evaluation), and analyzed numerical stability and generalization under different function smoothness and sampling resolutions.
+* Physics-enhanced video generation and multimodal world models
+* Diffusion / flow generative models and few-step distillation
+* Trustworthy evaluation of generative and multimodal models
 
-* Machine Learning and Large-Scale Algorithm Optimization (Course Project, Res1102: Algorithms for Big Data), FA2025  
-  * Classical-to-RNN Stack: Implemented perceptron, regression MLP, MNIST classifier, and language-ID RNNs with PyTorch Modules, DataLoader pipelines, and custom gradient-descent loops, validating each stage via numpy/matplotlib instrumentation and disciplined loss tracking.
-  * Transformer & GPT Tooling: Built a masked-attention transformer with LayerNorm, residual connections, and autoregressive sampling to power a character-level GPT, leveraging cross-entropy training, torch.nn.functional utilities, and reproducible generation scripts for trustworthy evaluation.
-
-* Algorithms & AI Foundations Self-Study Module (Self-directed & Course Project, ECE477: Intro to Algorithm), 2025.6-2025.12  
-  * Advanced Algorithmic Thinking for AI: Systematically studied advanced algorithms (graph algorithms, search, optimization, matching, and randomized algorithm), with emphasis on their role in AI problem solving such as search, planning, and decision-making.
-  * Collaborative Algorithm Wiki Project: Co-authored a structured algorithm wiki using Git and LaTeX in a team setting, focusing on clear exposition of algorithmic ideas, correctness, and complexity, following reproducible and standardized documentation practices.
-
-Work experience
+Research &amp; Technical Projects
 ======
-* Teaching Assistant - Intro to Circuits (ECE2150J), Shanghai Jiao Tong University, Shanghai, China (SU2025)  
-  * Provided technical guidance on circuit analysis and simulations, assisting students in debugging and experimental design.
-  * Demonstrated strong responsibility, communication skills, and long-term commitment in an academic setting.
-  
+* **Neural Network-based Numerical Integration** — Course project (Numerical Analysis), 2025
+  * Built neural function approximators for definite integrals in PyTorch: synthetic data generation, model definition, and batched training with `DataLoader`.
+  * Implemented end-to-end training/evaluation (loss monitoring, MAE/MSE) and analyzed numerical stability and generalization across function smoothness and sampling resolutions.
+
+* **Machine Learning &amp; Large-Scale Algorithm Optimization** — Course project (Algorithms for Big Data), 2025
+  * Implemented perceptron, regression MLP, an MNIST classifier, and language-ID RNNs with custom gradient-descent loops, validated stage-by-stage with numpy/matplotlib instrumentation.
+  * Built a masked-attention transformer (LayerNorm, residual connections, autoregressive sampling) to power a character-level GPT, with reproducible generation scripts.
+
+* **Algorithms &amp; AI Foundations Self-Study Module** — Self-directed &amp; course project, 2025
+  * Studied advanced algorithms (graph algorithms, search, optimization, matching, randomized algorithms) with an emphasis on their role in AI: search, planning, decision-making.
+  * Co-authored a structured algorithm wiki using Git and LaTeX, focused on clear exposition, correctness, and complexity.
+
+Experience
+======
+* **Teaching Assistant — Introduction to Circuits**, Shanghai Jiao Tong University, 2025
+  * Provided technical guidance on circuit analysis and simulation; supported students with debugging and experimental design.
+  * Demonstrated responsibility, communication, and sustained commitment in an academic setting.
+
 Skills
 ======
-* Programming: Python (PyTorch), C/C++, OCaml, MATLAB, LaTeX, Verilog.
-* ML Training & Optimization: End-to-end PyTorch pipelines (Dataset/DataLoader, train/val loops, checkpointing, reproducibility); regression/classification; Adam/SGD, LR scheduling, regularization, loss engineering (MSE/Huber, multi-task losses), hyperparameter tuning.
-* Simulation & Experimentation: Learning-based experiments in simulated environments, including CARLA and Habitat-Lab; evaluation with MAE/RMSE/F1 and error breakdowns.
-* Environment & Writing: Proficient with Ubuntu-based AI development (conda, CUDA-ready PyTorch, Git, Docker, SSH); experienced in formal academic writing and collaborative workflows using LaTeX and Git.
+* **Programming:** Python (PyTorch), C/C++, OCaml, MATLAB, LaTeX, Verilog
+* **ML training &amp; optimization:** End-to-end PyTorch pipelines (Dataset/DataLoader, train/val loops, checkpointing, reproducibility); Adam/SGD, LR scheduling, regularization, loss engineering (MSE/Huber, multi-task); hyperparameter tuning
+* **Simulation &amp; experimentation:** Learning-based experiments in simulated environments (CARLA, Habitat-Lab); evaluation with MAE/RMSE/F1 and error breakdowns
+* **Environment &amp; writing:** Linux-based AI development (conda, CUDA-ready PyTorch, Git, Docker, SSH); formal academic writing and collaborative workflows in LaTeX and Git
 
-Leadership and Awards
+Honors &amp; Awards
 ======
-* Gold Medal, University Physics Competition (FA2024, SJTU)  
-  * Aerodynamic Modeling and Analysis: Led the modeling and analysis of a three-dimensional aerodynamic problem, translating physical assumptions into simulation-ready formulations and interpreting quantitative results from the simulated flow field.
-  * 3D Physical Simulation with Ansys: Proposed and implemented a 3D simulation workflow using Ansys to study airflow behavior and system response, increasing the final report's confidence factor by 30%.
-
-* Feng Tongsheng Scholarship (Merit-based, University-level), FA2025
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* **Gold Medal, University Physics Competition** (Top 5%), 2024
+  * Led 3D aerodynamic modeling and analysis: translated physical assumptions into simulation-ready formulations and interpreted results from the simulated flow field.
+  * Proposed and implemented a 3D simulation workflow in Ansys to study airflow behaviour and system response.
+* **Feng Tongsheng Scholarship** (merit-based, university-level), 2025
